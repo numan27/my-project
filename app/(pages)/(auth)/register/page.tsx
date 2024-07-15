@@ -5,8 +5,9 @@ import { Grid, Typography } from '@mui/material';
 import { Input } from '@/components/ui/input';
 import { Button } from '@/components/ui/button';
 import Image from 'next/image';
-import IMAGES from '~/assets/images';
+// import IMAGES from '~/assets/images';
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from '@/components/ui/select';
+import IMAGES from '@/assets/images';
 
 const Register = () => {
   const [showPassword, setShowPassword] = useState(false);

@@ -1,0 +1,59 @@
+body {
+    font-family: "Manrope", sans-serif !important;
+
+}
+
+.bg-gradient {
+    background: linear-gradient(90deg, #A47E1B 0%, #FFE169 30%, #EDC531 50%, #C9A227 70%, #996D13 100%);
+}
+
+.bg-gradient:hover {
+    background: linear-gradient(90deg, #996D13 20%, #996D13 20%, #C9A227 100%, #FFE169 100%);
+}
+
+.nav-link {
+    font-size: 17px;
+    font-weight: 600;
+    line-height: 23.22px;
+}
+
+.outlined-btn:hover {
+    background: linear-gradient(90deg, #A47E1B 0%, #FFE169 30%, #EDC531 50%, #C9A227 70%, #996D13 100%);
+    border-color: transparent;
+    color: #1A1A1A;
+    transition: all 0.2s ease-in;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.link-btn:hover {
+    transition: all 0.2s ease-in;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.custom-dropdown-trigger {
+    background: linear-gradient(90deg, #A47E1B 0%, #FFE169 30%, #EDC531 50%, #C9A227 70%, #996D13 100%);
+}
+
+.custom-dropdown-trigger:hover {
+    background: linear-gradient(90deg, #996D13 20%, #996D13 20%, #C9A227 100%, #FFE169 100%);
+}
+
+.mobile-nav-link:hover {
+    background: linear-gradient(90deg, #A47E1B 0%, #FFE169 30%, #EDC531 50%, #C9A227 70%, #996D13 100%);
+}
+
+.footer-heading::before {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background: linear-gradient(90deg, #A47E1B 0%, #FFE169 30%, #EDC531 50%, #C9A227 70%, #996D13 100%);
+    width: 26px;
+    height: 2px;
+}
+
+::placeholder {
+    color: #fff;
+    font-weight: 400;
+    font-size: 17px;
+}
